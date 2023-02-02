@@ -1,0 +1,66 @@
+//colors
+$primary: #7945FF;
+$secondary: #1ac888;
+$error: #d32752;
+$info: #f6c31c;
+$blue: #1919e6;
+$red: #e61919;
+$yellow: #FFCE67;
+$green: #19e635;
+$orange: #ffa600;
+$purple: #7945FF;
+$darkpurple: #5C2DD5;
+$pink: #FD6687;
+$gray: #808080;
+$black: black;
+$white: white;
+
+// color palette
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error,
+    "info": $info,
+    "blue": #1919e6,
+    "red": #e61919,
+    "yellow": #FFCE67,
+    "green": #19e635,
+    "orange": #ffa600,
+    "purple": #7945FF,
+    "darkpurple": #5C2DD5,
+    "pink": #FD6687,
+    "gray": #808080,
+    "black": black,
+    "white": white,
+);
+
+// @debug map-get($map: $colors, $key: "purple");
+// @debug map-has-key($map: $colors, $key: "secondary");
+// @debug map-remove($map: $colors, $key: "primary");
+// @debug map-merge($map1: $colors, $map2: ("primary": $primary, ));
+
+//spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+//borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+//box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+//font-size
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+
+$size50 : 50px;
+$size75: 75px;
+$size100 : 100px;
+$size150 :150px;
+$size200 : 200px;
+$size250 : 250px;
+$size300 : 300px;

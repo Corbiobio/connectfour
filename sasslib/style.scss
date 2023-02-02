@@ -1,0 +1,72 @@
+//variables & functions
+@import 'functions';
+@import 'variables';
+
+//base & layout
+@import 'base';
+@import 'breakpoints';
+@import 'grid';
+
+//colors
+@import 'colors';
+
+//components
+@import 'components/card';
+@import 'components/button';
+@import 'components/navbar';
+@import 'components/badge';
+
+//utilities
+@import 'utilities';
+
+//slides
+@import 'slide';
+
+* {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: $primary ;
+}
+
+
+
+.homesection {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+
+    .playerbtn {
+        margin-top: 10%;
+        background-color: $yellow;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 22px;
+        height: 60px;
+        box-shadow: 0px 10px 0px 0px black;
+        border: 3px solid black;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+        // width: 50%;
+    }
+
+    .rulebtn {
+        margin-top: 10%;
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 22px;
+        box-shadow: 0px 10px 0px 0px black;
+        border: 3px solid black;
+        border-radius: 20px;
+        text-decoration: none;
+        padding: 15px;
+        width: 70%;
+    }
+}
