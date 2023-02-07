@@ -9,9 +9,9 @@ function Home() {
             <div className='homesection'>
 
 
-                <Link to="/">
-                    <img alt="logo" src="src/images/logo.svg" className='height-75 ' />
-                </Link>
+
+                <img alt="logo" src="src/images/logo.svg" className='height-75 ' />
+
                 <Link to="/Game" className='playerbtn'>
                     play vs player
                     <img src='src/images/player-vs-player.svg'></img>
