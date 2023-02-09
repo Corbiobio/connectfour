@@ -5,22 +5,25 @@ function Home() {
     return (
 
         <>
-
-            <div className='homesection'>
-
+            <div className='container'>
 
 
-                <img alt="logo" src="src/images/logo.svg" className='height-75 ' />
+                <div className='container__homesection'>
 
-                <Link to="/Game" className='playerbtn'>
-                    play vs player
-                    <img src='src/images/player-vs-player.svg'></img>
-                </Link>
 
-                <Link to="/Rule" className='rulebtn' >
-                    Game rules
-                </Link>
 
+                    <img alt="logo" src="src/images/logo.svg" className='menu_logo' />
+
+                    <Link to="/Game" className='player home-btn'>
+                        play vs player
+                        <img src='src/images/player-vs-player.svg'></img>
+                    </Link>
+
+                    <Link to="/Rule" className='rule home-btn' >
+                        Game rules
+                    </Link>
+
+                </div>
             </div>
         </>
     );

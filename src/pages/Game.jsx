@@ -24,12 +24,12 @@ function Game() {
 
             <main>
                 <section className='player-section'>
-                    <article className='player-div'>
+                    <article className='player-div player-div-left'>
                         <img className='first-player' src="src/images/player-one.svg" alt="player one" />
                         Player 1
                         <span>50</span>
                     </article>
-                    <article className='player-div'>
+                    <article className='player-div player-div-right'>
                         <img className='second-player' src="src/images/player-two.svg" alt="player two" />
                         Player 2
                         <span>20</span>
@@ -37,9 +37,10 @@ function Game() {
                 </section>
 
                 <div className='board-container'>
-                    <img className='board1' src="src/images/board-layer-black-small.svg" alt="black board" />
-                    <img className='board2' src="src/images/board-layer-white-small.svg" alt="white board" />
-
+                    <img className='board1 boardMobile' src="src/images/board-layer-black-small.svg" alt="black board" />
+                    <img className='board2 boardMobile' src="src/images/board-layer-white-small.svg" alt="white board" />
+                    <img className='board1 boardPC' src="src/images/board-layer-black-large.svg" alt="black board" />
+                    <img className='board2 boardPC' src="src/images/board-layer-white-large.svg" alt="white board" />
                     <div className='arrow-div'>
                         <p className='arrow-p'>Player 1's turn</p>
                         <p className='arrow-p timer'><span>20</span>s</p>
